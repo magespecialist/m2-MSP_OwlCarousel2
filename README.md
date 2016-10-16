@@ -1,4 +1,7 @@
 # Magento 2 OwlCarousel2 module
+
+[![PHP version](https://badge.fury.io/ph/msp%2Fowlcarousel2.svg)](https://badge.fury.io/ph/msp%2Fowlcarousel2)
+
 This module lets you use [OwnCarousel2](https://github.com/OwlCarousel2/OwlCarousel2) with Magento 2 throught requirejs.
 
 ## Installation
