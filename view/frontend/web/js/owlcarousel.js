@@ -22,6 +22,7 @@ define([
     "Msp_OwlCarousel2/js/owl.carousel.min"
 ], function($){
     return function (config, elem) {
+	$(elem).addClass('owl-carousel');
         return $(elem).owlCarousel(config);
     }
 });

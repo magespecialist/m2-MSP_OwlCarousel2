@@ -7,10 +7,10 @@ This module lets you use [OwnCarousel2](https://github.com/OwlCarousel2/OwlCarou
 ## Installation
 ```
 composer require msp/owlcarousel2
-bin/magento module:enable Msp_OwlCarousel2
 bin/magento setup:upgrade
 ```
 ## Usage
+### Initialization
 You can init the slider with `data-mage-init`:
 ```
 <div id="your-slider" class="owl-carousel" data-mage-init='{
@@ -49,4 +49,16 @@ or with a `<script type="text/x-magento-init">`:
          }
      }
  </script>
+```
+### OwlCarousel theme css
+This module loads only the base css from OwlCarousel, but no theme.
+The default theme is included, and you can add it to your theme layout ```default.xml``` (or whatever layout file) with:
+```
+...
+    <head>
+        ...
+        <css src="Msp_OwlCarousel2::css/owl.theme.default.min.css" />
+        ...
+    </head>
+...
 ```
