@@ -20,10 +20,11 @@
 var config = {
     "map": {
         "*": {
-            "OwlCarousel": "Msp_OwlCarousel2/js/owlcarousel"
+            "OwlCarousel": "Msp_OwlCarousel2/js/owlcarousel",
+            "OwlCarousel-min": "Msp_OwlCarousel2/js/owl.carousel.min"
         }
     },
     "shim":{
-        "Msp_OwlCarousel2/js/owl.carousel.min": ["jquery"]
+        "OwlCarousel-min": ["jquery"]
     }
 };
