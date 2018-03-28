@@ -25,6 +25,7 @@ var config = {
         }
     },
     "shim":{
+        "OwlCarousel": ["jquery"],
         "OwlCarousel-min": ["jquery"]
     }
 };
